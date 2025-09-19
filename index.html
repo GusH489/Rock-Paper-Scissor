@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock_Paper_Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+    <div class="content">
+        <div class="heading"><p>Choose One</p></div>
+        <div class="choices">
+            <button class= "scissor_class" id="scissor-choice" type="button" value="scissor">Scissor<img src="imgs/scissors.jpg"></button>
+            <button class= "rock_class" id="rock-choice" type="button" value="rock" id="rock-button">Rock<img src="imgs/rock.jpg"></button>
+            <button class= "paper_class" id="paper-choice" type="button" value="paper" id="paper-button">Paper<img src="imgs/paper.jpg"></button>
+        </div>
+        <div class="score">
+            <div class="user-score-container">
+                <p>User: </p>
+                <p id="player-score"></p>
+            </div>
+            <div class="cpu-score-container">
+                <p>CPU: </p>
+                <p id="cpu-score"></p>
+            </div>
+        </div>
+        <div class="round-status"><p id="roundStatus"></p></div>
+    </div>
+</body>
+</html>

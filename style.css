@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #96ADC8;
+    font-family: inter;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+    background-color: #050517;
+    color: #96ADC8;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    
+    
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+
+    color:#050517;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choices button {
+    background-color: #050517;
+    color: #F6ECEC;
+
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+button > img {
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+
+    align-self: center;
+}
+
+.score {
+    color:#050517;
+    font-size: larger;
+    font-weight: bolder;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.score > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.round-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    color:#050517;
+    font-size: larger;
+    font-weight: bolder;
+}
